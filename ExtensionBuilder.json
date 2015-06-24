@@ -12,7 +12,7 @@
             "sourceLanguage": "en",
             "state": "beta",
             "targetVersion": "6.2",
-            "version": "0.0.1"
+            "version": "0.0.2-dev"
         },
         "extensionKey": "jh_kestats_fes",
         "name": "Frontend Extension Support (FES)",
