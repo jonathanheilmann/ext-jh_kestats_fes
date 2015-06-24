@@ -1,0 +1,37 @@
+plugin.tx_kestats_pi1 {
+	# setup statistics for news
+	registerExtension.news = News system
+	registerExtension.news.table = tx_news_domain_model_news
+	registerExtension.news.titleField = title
+	registerExtension.news.uidField = uid
+	registerExtension.news.pidField = pid
+	registerExtension.news.uidParameter = news
+	registerExtension.news.uidParameterWrap = tx_news_pi1
+	
+	# setup statistics for jh_gallery
+	registerExtension.jh_gallery = Gallery
+	registerExtension.jh_gallery.table = tx_jhgallery_domain_model_album
+	registerExtension.jh_gallery.titleField = title
+	registerExtension.jh_gallery.uidField = uid
+	registerExtension.jh_gallery.pidField = pid
+	registerExtension.jh_gallery.uidParameter = album
+	registerExtension.jh_gallery.uidParameterWrap = tx_jhgallery_gallery
+	
+	# setup statistics for jh_googlemaps
+	registerExtension.jh_googlemaps = Google Maps
+	registerExtension.jh_googlemaps.table = tx_jhgooglemaps_domain_model_location
+	registerExtension.jh_googlemaps.titleField = title
+	registerExtension.jh_googlemaps.uidField = uid
+	registerExtension.jh_googlemaps.pidField = pid
+	registerExtension.jh_googlemaps.uidParameter = selectedLocation
+	registerExtension.jh_googlemaps.uidParameterWrap = tx_jhgooglemaps_map
+	
+	# setup statistics for jh_portfolio
+	registerExtension.jh_portfolio = Portfolio
+	registerExtension.jh_portfolio.table = tx_jhportfolio_domain_model_page
+	registerExtension.jh_portfolio.titleField = title
+	registerExtension.jh_portfolio.uidField = uid
+	registerExtension.jh_portfolio.pidField = pid
+	registerExtension.jh_portfolio.uidParameter = page
+	registerExtension.jh_portfolio.uidParameterWrap = tx_jhportfolio_portfolio
+}
